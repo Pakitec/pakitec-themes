@@ -20,7 +20,7 @@ final pakiDefaultThemeData = ThemeData(
 List<Color> _colors = [pakiDefaultSecondaryColor, const Color.fromARGB(255, 46, 70, 137)];
 List<double> _stops = [0.0, 0.8];
 
-final boxDecoration = BoxDecoration(
+final pakiDefaultBoxDecoration = BoxDecoration(
     gradient: LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
@@ -28,12 +28,12 @@ final boxDecoration = BoxDecoration(
         stops: _stops));
 
 //estilo default p/ textos em inputs do login
-const hintTextStyle = TextStyle(color: pakiDefaultPrimaryColor, fontFamily: 'OpenSans');
+const pakiDefaultHintTextStyle = TextStyle(color: pakiDefaultPrimaryColor, fontFamily: 'OpenSans');
 
 //estilo default para as labels do login
-const labelStyle = TextStyle(
+const pakiDefaultLabelStyle = TextStyle(
     color: pakiDefaultPrimaryColor, fontWeight: FontWeight.w500, fontFamily: 'OpenSans');
 
 //estilo default para as labels do login
-const labelStyleGreen = TextStyle(
+const pakiDefaultLabelStyleGreen = TextStyle(
     color: pakiDefaultPrimaryColor, fontWeight: FontWeight.bold, fontFamily: 'OpenSans');
