@@ -1,6 +1,6 @@
-name: themes
-description: "A new Flutter project."
-version: 0.0.1
+name: pakitec_themes
+description: components from pakitec devs
+version: 1.0.0
 homepage: 'www.pakitec.com.br'
 
 environment:
