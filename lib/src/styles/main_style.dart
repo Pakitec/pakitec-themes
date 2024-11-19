@@ -10,6 +10,7 @@ final pakiDefaultThemeData = ThemeData(
     cardColor: const Color.fromARGB(255, 38, 57, 111),
     scaffoldBackgroundColor: pakiDefaultSecondaryColor,
     inputDecorationTheme: const InputDecorationTheme(
+        errorStyle: TextStyle(color: Colors.red),
         enabledBorder:
         OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
         focusedBorder:
